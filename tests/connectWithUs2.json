@@ -1,0 +1,25 @@
+{
+  "resource": "/webhook",
+  "path": "/webhook",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "example.com",
+    "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+    "Content-Type": ["application/json"]
+  },
+  "queryStringParameters": null,
+  "multiValueQueryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/webhook",
+    "httpMethod": "POST",
+    "path": "/dev/webhook",
+    "protocol": "HTTP/1.1"
+  },
+  "body": "{\"text\": \"Connect\"}",
+  "isBase64Encoded": false
+}
