@@ -20,6 +20,4 @@ def lambda_handler(event, context):
         headers.extend(header_list)
 
     result = app(env, start_response)
-
-    result = app(env, start_response)
     return encode_response(result)
