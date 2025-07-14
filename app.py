@@ -29,6 +29,18 @@ def webhook():
             }
         })
     
+@app.route("/appointment", methods=["POST"])
+def appointment():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["To Make an Appointment go here: https://apply.wagner.nyu.edu/portal/admission_appointments?_gl=1*50yj5*_gcl_au*NDU3MTU2MDY2LjE3NTA0MjU3ODM.*_ga*MTAzNTI5MzgyMy4xNzUwNDI1Nzgz*_ga_2TJ7LPP22J*czE3NTE1Njg4NDQkbzEwJGcxJHQxNzUxNTY4ODg5JGoxNSRsMCRoMA.."]
+                }
+            }]
+        }
+    })
+    
 @app.route("/health", methods=["GET"])
 def health_check():
     return jsonify({"status": "Connection Valid"}), 200
