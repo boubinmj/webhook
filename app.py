@@ -16,7 +16,9 @@ def webhook():
             "fulfillment_response": {
                 "messages": [{
                     "text": {
-                        "text": ["To Make an Appointment go here: https://apply.wagner.nyu.edu/portal/admission_appointments?_gl=1*50yj5*_gcl_au*NDU3MTU2MDY2LjE3NTA0MjU3ODM.*_ga*MTAzNTI5MzgyMy4xNzUwNDI1Nzgz*_ga_2TJ7LPP22J*czE3NTE1Njg4NDQkbzEwJGcxJHQxNzUxNTY4ODg5JGoxNSRsMCRoMA.."]
+                        "text": [
+                                "To make an appointment, visit: <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>this link</a>"
+                            ]
                     }
                 }]
             }
