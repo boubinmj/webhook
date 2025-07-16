@@ -17,7 +17,7 @@ def webhook():
                 "messages": [{
                     "text": {
                         "text": [
-                                "To make an appointment, visit: <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>this link</a>"
+                                "To make an appointment, visit the: <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>Appointment Portal</a>"
                             ]
                     }
                 }]
@@ -47,7 +47,7 @@ def appointment():
             "messages": [{
                 "text": {
                    "text": [
-                                "To make an appointment, visit: <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>this link</a>"
+                                "To make an appointment, visit the: <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>Appointment Portal</a>"
                             ]
                 }
             }]
@@ -61,7 +61,7 @@ def studentAlumni():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Connect with Students and Alumni: https://wagner.nyu.edu/admissions/visit-us/connections"]
+                    "text": ["Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>"]
                 }
             }]
         }
@@ -74,7 +74,7 @@ def tour():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Schedule a Campus Tour: https://connect.nyu.edu/portal/grad_tours"]
+                    "text": ["Schedule a <a href='https://connect.nyu.edu/portal/grad_tours'>Campus Tour</a>"]
                 }
             }]
         }
@@ -87,7 +87,9 @@ def event():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Attend an Admissions Event: https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw\n\nEvent Recordings: [https://wagner.nyu.edu/admissions/connect-with-us/admissions-events-recordings]"]
+                    "text": ["Attend an Admissions Event \
+                              <a href='https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw'>Admissions Event</a> \
+                             \n\nView <a href='https://wagner.nyu.edu/admissions/connect-with-us/admissions-events-recordings'>Event Recordings</a>"]
                 }
             }]
         }
