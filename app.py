@@ -62,7 +62,7 @@ def studentAlumni():
             "messages": [{
                 "text": {
                     "text": ["To hear first-hand about the NYU Wagner student experience and the value of our graduate degrees from current students or one of our over 15,000 alumni throughout the United States and around the world.  \
-                             Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>"]
+                             Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>."]
                 }
             }]
         }
@@ -75,8 +75,8 @@ def tour():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["See what it's like to study in our unique urban setting. The university offers tours of the Washington Square campus to prospective graduate and professional school students throughout the year.  \
-                             Visit the <a href='https://connect.nyu.edu/portal/grad_tours'>graduate admissions portal</a> to schedule a campus tour"]
+                    "text": ["See what it's like to study in our unique urban setting! The university offers tours of the Washington Square campus to prospective graduate and professional school students throughout the year.  \
+                             Visit the <a href='https://connect.nyu.edu/portal/grad_tours'>graduate admissions portal</a> to schedule a campus tour!"]
                 }
             }]
         }
@@ -110,7 +110,7 @@ def requirementsVisa():
             "messages": [{
                 "text": {
                     "text": ["To understand visa requirements please visit the "
-                    "<a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html'>Office of Global Services</a>"]
+                    "<a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration.html'>Office of Global Services</a>."]
                 }
             }]
         }
@@ -123,7 +123,7 @@ def enrollmentStatus():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["View or change your enrollment status please visit the \
+                    "text": ["To view or change your enrollment status please visit the \
                               <a href='https://wagner.nyu.edu/portal/students/academics/registration/ft-or-pt'>Wagner Registration Portal</a>."]
                 }
             }]
@@ -137,8 +137,8 @@ def visaStatus():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Check or update your visa status, please use the resources provided by the \
-                             <a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/visa-and-academic-changes.html'>Office of Global Services</a>"]
+                    "text": ["To check or update your visa status, please use the resources provided by the \
+                             <a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/visa-and-academic-changes.html'>Office of Global Services</a>."]
                 }
             }]
         }
