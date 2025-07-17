@@ -47,7 +47,7 @@ def appointment():
             "messages": [{
                 "text": {
                    "text": [
-                                "To make an appointment, visit the <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>Admissions Appointmnet Portal</a>"
+                                "To make an appointment with our admissions officers, please visit the <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>Admissions Appointmnet Portal</a>"
                             ]
                 }
             }]
@@ -61,7 +61,8 @@ def studentAlumni():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>"]
+                    "text": ["To hear first-hand about the NYU Wagner student experience and the value of our graduate degrees from current students or one of our over 15,000 alumni throughout the United States and around the world.  \
+                             Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>"]
                 }
             }]
         }
@@ -74,7 +75,8 @@ def tour():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Schedule a <a href='https://connect.nyu.edu/portal/grad_tours'>Campus Tour</a>"]
+                    "text": ["See what it's like to study in our unique urban setting. The university offers tours of the Washington Square campus to prospective graduate and professional school students throughout the year.  \
+                             Visit the <a href='https://connect.nyu.edu/portal/grad_tours'>graduate admissions portal</a> to schedule a campus tour"]
                 }
             }]
         }
@@ -87,9 +89,9 @@ def event():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Attend an Admissions Event \
-                              <a href='https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw'>Admissions Event</a> \
-                             \n\nView <a href='https://wagner.nyu.edu/admissions/connect-with-us/admissions-events-recordings'>Event Recordings</a>"]
+                    "text": ["Check out our events page for a listing of our upcoming public admissions events on the \
+                              <a href='https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw'>Wagner Events Page</a>! \
+                             \n\nOr to access content any time, check out <a href='https://wagner.nyu.edu/admissions/connect-with-us/admissions-events-recordings'>event recordings</a> of past admissions events."]
                 }
             }]
         }
@@ -121,8 +123,8 @@ def enrollmentStatus():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["View or change your \
-                              <a href='https://wagner.nyu.edu/portal/students/academics/registration/ft-or-pt'>Enrollment Status</a>"]
+                    "text": ["View or change your enrollment status please visit the \
+                              <a href='https://wagner.nyu.edu/portal/students/academics/registration/ft-or-pt'>Wagner Registration Portal</a>."]
                 }
             }]
         }
@@ -135,8 +137,8 @@ def visaStatus():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["Check your \
-                             <a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/visa-and-academic-changes.html'>Visa Status</a>"]
+                    "text": ["Check or update your visa status, please use the resources provided by the \
+                             <a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/visa-and-academic-changes.html'>Office of Global Services</a>"]
                 }
             }]
         }
@@ -149,8 +151,8 @@ def digitalPrivacy():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["US International Students - "
-                    "<a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/know-your-rights.html'>Know Your Rights</a>"]
+                    "text": ["For information privacy guidance as it relates to US International Students, please refer to the "
+                    "<a href='https://www.nyu.edu/students/student-information-and-resources/student-visa-and-immigration/current-students/know-your-rights.html'>Current Students Resources Page</a>."]
                 }
             }]
         }
