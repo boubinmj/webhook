@@ -47,7 +47,7 @@ def appointment():
             "messages": [{
                 "text": {
                    "text": [
-                                "To make an appointment with our admissions officers, please visit the <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'>Admissions Appointmnet Portal</a>"
+                                "To make an appointment with our admissions officers, please visit the <a href='https://apply.wagner.nyu.edu/portal/admission_appointments?...'><strong>Admissions Appointmnet Portal</strong></a>"
                             ]
                 }
             }]
@@ -174,8 +174,6 @@ def dualDegree():
             }]
         }
     })
-
-
 
 ##############################################
 ######### HEALTH #############################
