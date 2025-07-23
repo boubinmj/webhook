@@ -158,6 +158,24 @@ def digitalPrivacy():
         }
     })
 
+#####################################
+######## webpage replacement ########
+#####################################
+## Dual Degree
+@app.route("/dualDegree", methods=["POST"])
+def dualDegree():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check out the NYU Wagner Website to learn about "
+                    "<a href='https://wagner.nyu.edu/education/degrees/dual-degree-program'>Dual Degree Programs</a>."]
+                }
+            }]
+        }
+    })
+
+
 
 ##############################################
 ######### HEALTH #############################
