@@ -62,7 +62,7 @@ def studentAlumni():
             "messages": [{
                 "text": {
                     "text": ["To hear first-hand about the NYU Wagner student experience and the value of our graduate degrees from current students or one of our over 15,000 alumni throughout the United States and around the world.  \
-                             Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections'>appointment with Students and Alumni</a>."]
+                             Visit the Wagner website to make an <a href='https://wagner.nyu.edu/admissions/visit-us/connections' style='font-weight: bold; color: #57068c;'>appointment with Students and Alumni</a>."]
                 }
             }]
         }
