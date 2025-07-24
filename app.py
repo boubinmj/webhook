@@ -90,7 +90,7 @@ def event():
             "messages": [{
                 "text": {
                     "text": ["Check out our events page for a listing of our upcoming public admissions events on the \
-                              <a href='https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw'>Wagner Events Page</a>! \
+                              <a href='https://apply.wagner.nyu.edu/portal/admission-events?_gl=1*9fyl4r*_gcl_au*MTYxMTAyMjMzOS4xNzUxNzE2OTg3*_ga*NDMwNzc0Nzg3LjE3Mjc5OTkwOTk.*_ga_2TJ7LPP22J*czE3NTI1NDE1MDgkbzE0JGcxJHQxNzUyNTQxNzI4JGo3JGwwJGgw'><strong>Wagner Events Page</strong></a>! \
                              \n\nOr to access content any time, check out <a href='https://wagner.nyu.edu/admissions/connect-with-us/admissions-events-recordings'><strong>event recordings</strong></a> of past admissions events."]
                 }
             }]
