@@ -54,6 +54,23 @@ def appointment():
         }
     })
 
+## Visit A Class
+@app.route("/visitClass", methods=["POST"])
+def visitClass():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                   "text": [
+                                "Sit in on a course to experience the classroom, meet current students, and learn from NYU Wagner's dynamic faculty. \
+                                      Most classes are conveniently offered in the evening. Class visits are subject to availability and offered on a first-come, first-served basis. \
+                                      Prospective students can register for up to two class visits per semester.Class visits will resume in the Fall."
+                            ]
+                }
+            }]
+        }
+    })
+
 ## Connect with Students and Alumni
 @app.route("/studentAlumni", methods=["POST"])
 def studentAlumni():
