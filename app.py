@@ -174,6 +174,18 @@ def dualDegree():
             }]
         }
     })
+## Student Groups
+@app.route("/studentGroups", methods=["POST"])
+def studentGroups():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["All Wagner <a href='https://wagner.nyu.edu/education/degrees/dual-degree-program'><strong>Student Groups</strong></a> and Organizations are open to any interested Wagner student."]
+                }
+            }]
+        }
+    })
 
 ##############################################
 ######### HEALTH #############################
