@@ -198,7 +198,400 @@ def studentGroups():
         "fulfillment_response": {
             "messages": [{
                 "text": {
-                    "text": ["All Wagner <a href='https://wagner.nyu.edu/education/degrees/dual-degree-program'><strong>Student Groups</strong></a> and Organizations are open to any interested Wagner student."]
+                    "text": ["All Wagner <a href='https://wagner.nyu.edu/portal/students/engagement/organizations/groups'><strong>Student Groups</strong></a> and Organizations are open to any interested Wagner student."]
+                }
+            }]
+        }
+    })
+
+#####################################
+######## FAQ replacement ############
+#####################################
+
+## FAQ
+@app.route("/whereCourses", methods=["POST"])
+def whereCourses():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/howLong", methods=["POST"])
+def howLong():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/group", methods=["POST"])
+def group():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/wagCommunity", methods=["POST"])
+def wagCommunity():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/gradHousing", methods=["POST"])
+def gradHousing():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/undergradProgram", methods=["POST"])
+def undergradProgram():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/location", methods=["POST"])
+def location():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/speakWithStudent", methods=["POST"])
+def speakWithStudent():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/workEnrolled", methods=["POST"])
+def workEnrolled():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/facultyOpportunity", methods=["POST"])
+def facultyOpportunity():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/visitWagner", methods=["POST"])
+def visitWagner():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/eveningCourses", methods=["POST"])
+def eveningCourses():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/eventsSchedule", methods=["POST"])
+def eventsSchedule():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+#############################
+@app.route("/admissionsDecision", methods=["POST"])
+def admissionsDecision():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/appDeadlines", methods=["POST"])
+def appDeadlines():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/greGmat", methods=["POST"])
+def greGmat():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/appRequirements", methods=["POST"])
+def appRequirements():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+
+@app.route("/translation", methods=["POST"])
+def translation():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/englishProficiency", methods=["POST"])
+def englishProficiency():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/recommendationLetter", methods=["POST"])
+def recommendationLetter():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/feeWaiver", methods=["POST"])
+def feeWaiver():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+#############
+@app.route("/workExperience", methods=["POST"])
+def workExperience():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/scholarshipsAvailable", methods=["POST"])
+def scholarshipsAvailable():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/gradAssistanceship", methods=["POST"])
+def gradAssistanceship():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/scholarshipNotification", methods=["POST"])
+def scholarshipNotification():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/financialAid", methods=["POST"])
+def financialAid():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/meritBasedScholarship", methods=["POST"])
+def meritBasedScholarship():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+############################
+@app.route("/reapply", methods=["POST"])
+def reapply():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/visa", methods=["POST"])
+def visa():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/acceptOffer", methods=["POST"])
+def acceptOffer():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/payDeposit", methods=["POST"])
+def payDeposit():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
+                }
+            }]
+        }
+    })
+
+@app.route("/housingResources", methods=["POST"])
+def housingResources():
+    return jsonify({
+        "fulfillment_response": {
+            "messages": [{
+                "text": {
+                    "text": ["Check the Wagner <a href='https://wagner.nyu.edu/admissions/faqs'><strong>FAQ Page</strong></a> for more information."]
                 }
             }]
         }
